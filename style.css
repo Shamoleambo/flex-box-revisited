@@ -17,6 +17,7 @@ body {
   background-color: #f4f4f4;
   justify-content: start;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .item {
