@@ -12,11 +12,10 @@ body {
 }
 
 .flex-container {
-  height: 800px;
+  height: 400px;
   display: flex;
-  flex-direction: column;
   background-color: #f4f4f4;
-  justify-content: space-around;
+  justify-content: start;
   align-items: center;
 }
 
@@ -26,16 +25,7 @@ body {
   background-color: #0000ff;
   color: #fff;
   margin: 10px;
-}
-
-.item:nth-of-type(1) {
-  align-self: self-start;
-}
-
-.item:nth-of-type(2) {
-  align-self: center;
-}
-
-.item:nth-of-type(3) {
-  align-self: self-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
