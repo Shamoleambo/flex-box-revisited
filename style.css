@@ -17,7 +17,8 @@ body {
 }
 
 .item {
-  width: 100px;
+  flex-basis: 100px;
+  flex-grow: 1;
   height: 100px;
   background-color: #0000ff;
   color: #fff;
@@ -25,14 +26,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.item:nth-of-type(1) {
-  order: 2;
-}
-.item:nth-of-type(2) {
-  order: 3;
-}
-.item:nth-of-type(3) {
-  order: 1;
 }
