@@ -1,0 +1,27 @@
+nav .container {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .nav {
+  list-style: none;
+  display: flex;
+}
+
+.nav a {
+  color: black;
+  padding: 0.5rem;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.header .container {
+  justify-content: space-around;
+  display: flex;
+}
+
+.container img {
+  width: 40%;
+}
