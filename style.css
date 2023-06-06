@@ -11,6 +11,11 @@ body {
   font-weight: var(--fw-b);
 }
 
+.flex-container {
+  display: flex;
+  background-color: #f4f4f4;
+}
+
 .item {
   width: 100px;
   height: 100px;
